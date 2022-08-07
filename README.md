@@ -59,6 +59,7 @@ FITUR DAN DETAIL APLIKASI PRESENSI:
 
 
 ===== TAMPILAN DETAIL PRESENSI =====
+
 ![DETAIL_PRESENCE](https://user-images.githubusercontent.com/68117514/183283855-9f1da90d-8dda-45db-9dfd-a822514f423c.png)
 
 
