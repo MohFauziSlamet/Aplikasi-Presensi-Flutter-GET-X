@@ -69,10 +69,12 @@ class HomeView extends GetView<HomeController> {
                               fontWeight: FontWeight.bold, fontSize: 20),
                         ),
                         SizedBox(height: 5),
-                        FittedBox(
-                          child: SizedBox(
-                            width: 250,
-                            child: Text(data['address'] ?? "Belum ada lokasi"),
+                        SizedBox(
+                          width: 230,
+                          child: Text(
+                            data['address'] ?? "Belum ada lokasi",
+                            maxLines: 3,
+                            style: TextStyle(fontSize: 14),
                           ),
                         ),
                       ],
